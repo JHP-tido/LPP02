@@ -11,7 +11,7 @@ class Radio
   end
  
   def perim()
-    ((@x)/(2*(Math::PI)))
+    (@x)/(2*(Math::PI))
   end
  
 end

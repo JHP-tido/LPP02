@@ -17,7 +17,7 @@ class TestRadio < Test::Unit::TestCase
   end
   
   def test_failure
-    assert_in_delta(0.47746, Radio.new(3).perim(),0.0005,"Son distintos")
+    assert_in_delta(0.47746, Radio.new(3).perim(),0.0005,"Diferentes")
   end
 end
 
